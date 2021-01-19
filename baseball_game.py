@@ -271,7 +271,8 @@ def main():
     while True:
         strikeOrBall = [0, 0]
         user_input = input("Input guess random number : ")
-
+        if user_input == "0":
+            break
         if is_validated_number(user_input):
             strikeOrBall = get_strikes_or_ball(user_input, random_number)
             print("Striks : %d , Balls : %d" % (strikeOrBall[0], strikeOrBall[1]))
