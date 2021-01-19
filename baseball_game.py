@@ -276,7 +276,7 @@ def main():
             strikeOrBall = get_strikes_or_ball(user_input, random_number)
             print("Striks : %d , Balls : %d" % (strikeOrBall[0], strikeOrBall[1]))
         else:
-            print("Wrong Input, Input again")
+            print("Wrong Input")
 
         if strikeOrBall[0] == 3:
             while True:
@@ -284,7 +284,7 @@ def main():
                 if is_no(user_input) or is_yes(user_input):
                     break        # 둘중 하나참인경우 break
                 else:
-                    print("Wrong Input, Input again")
+                    print("Wrong Input")
             if is_no(user_input):
                 break
     # ==================================
