@@ -277,8 +277,6 @@ def main():
             strikeOrBall = get_strikes_or_ball(user_input, random_number)
             if strikeOrBall[0] != 3:
                 print("Strikes : %d , Balls : %d" % (strikeOrBall[0], strikeOrBall[1]))
-            else:
-                print("Strikes")
         else:
             print("Wrong Input")
 
