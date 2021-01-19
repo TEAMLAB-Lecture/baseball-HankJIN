@@ -289,8 +289,9 @@ def main():
                     print("Wrong Input")
             if is_no(user_input):
                 break
-        random_number = str(get_not_duplicated_three_digit_number())
-        print("Random Number is : ", random_number)
+            else:
+                random_number = str(get_not_duplicated_three_digit_number())
+                print("Random Number is : ", random_number)
     # ==================================
     print("Thank you for using this program")
     print("End of the Game")
